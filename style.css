@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner {
+
+    background-color: #2F2A28;
+    width: 980px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 150px;
+
+}
+
+.footer {
+    background-color: #2F2A28;
+    width: 950px;
+    height: 300px;
+    margin-left: 200px;
+
+}
+
+.footer h2 {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px inset cadetblue;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.top-h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: 600;
+
+
+}
+
+.top-h3 {
+    color: white;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 100px;
+    font-weight: 400;
+
+}
+
+.top-img {
+    margin-top: 160px;
+    margin-right: 30px;
+
+
+}
+
+.top-anchor {
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+
+}
+
+.Under-top {
+    display: flex;
+    width: 100%;
+}
+
+
+.middle {
+    margin-bottom: 100px;
+
+
+}
+
+.Blog {
+    width: 200px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-left: 50px;
+
+
+}
+
+.blog-button {
+    padding: 8px 1px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+}
+
+.blog-buttonn {
+    padding: 8px 2px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.blog-buttonnn {
+    padding: 8px 2px;
+    margin-top: 15px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+}
+
+.blog-button a {
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    padding-left: 32px;
+}
+
+.blog-buttonn a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding-left: 56px;
+}
+
+.blog-buttonnn a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    padding-left: 70px;
+}
+
+
+.Live {
+    margin-right: 400px;
+    width: 52%;
+}
+
+.Live-images {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 85px;
+
+}
+
+.Live-image {
+    width: 240px;
+    height: 351px;
+}
+
+
+
+.Live-author a {
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 5px 12px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.Live-title {
+    font-size: 15px;
+}
+
+.Live-icon {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+}
+
+.Live-icon img {
+    height: 24px;
+    width: 25px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: white;
+    margin-left: 34px;
+    font-size: 16px;
+    font-weight: 200;
+}
