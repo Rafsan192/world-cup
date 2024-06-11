@@ -216,3 +216,70 @@ hr {
     font-size: 16px;
     font-weight: 200;
 }
+
+@media only screen and (max-width: 688px) {
+
+    .top-banner,
+    .middle,
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-banner,
+    .top-style,
+    .top-text {
+        flex-direction: column;
+    }
+
+    .Live-images {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 150px;
+    }
+
+    .Live-image {
+        max-width: 100%;
+    }
+
+    .Blog {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .top-banner,
+    .middle,
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-banner {
+        flex-direction: row-reverse;
+    }
+
+    .top-style {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .top-text {
+        text-align: left;
+    }
+
+    .Live-images {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 150px;
+    }
+
+    .Blog {
+        width: 100%;
+    }
+
+}
